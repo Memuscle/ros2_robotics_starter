@@ -1,0 +1,8 @@
+shape_follower:
+  ros__parameters:
+    shape: square        # square | circle
+    size: 2.0            # side length (square) or radius (circle), metres
+    linear_speed: 0.5    # m/s
+    angular_speed: 0.8   # rad/s, used for the square's 90-degree turns
+    loops: 1
+    rate: 20.0           # publish rate, Hz
